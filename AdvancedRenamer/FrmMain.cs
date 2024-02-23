@@ -113,10 +113,10 @@ namespace AdvancedRenamer
 
         private void butRename_Click(object sender, EventArgs e)
         {
-            DoRename();
+            Rename();
         }
 
-        private void DoRename()
+        private void Rename()
         {
             int successCount = 0;
             int failCount = 0;
@@ -222,7 +222,7 @@ namespace AdvancedRenamer
 
             try
             {
-                DoRename();
+                Rename();
             }
             catch { }
 
@@ -317,7 +317,7 @@ namespace AdvancedRenamer
 
         private void renameFilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DoRename();
+            Rename();
         }
 
         private void deleteFilesToolStripMenuItem_Click(object sender, EventArgs e)
